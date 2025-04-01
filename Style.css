@@ -1,0 +1,249 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+      background-color: powderblue;
+      background-position: center;
+      background-size: cover;
+      backdrop-filter: blur(1px);
+    
+    
+    }
+    header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #160045;
+   width: 1260px;
+   height: 120px;
+     
+    
+    }
+    nav ul li{
+      display:inline-flex;
+   
+      
+      
+    }
+    a{
+      text-decoration: none;
+      padding-right: 28px;
+      color: rgb(255, 255, 255);
+      font-family: "Roboto", sans-serif;
+    
+    }
+    .container{
+      display: flex;
+      align-items: center;
+      gap: 300px;
+      padding-bottom: 90px;
+    
+    }
+    *{
+      box-sizing: border-box;
+      outline: none;
+      margin: 0;
+      padding: 0;
+    }
+    .Container2{
+      background-color: white;
+      width: 700px;
+      height: 400px;
+      border-radius: 10px;
+      overflow: hidden;
+    
+    }
+    .header{
+      background-color: rgb(90, 178, 255);
+     padding-top: 29px;
+     padding-left: 12px;
+     padding-bottom: 12px;
+    
+    
+    }
+    .form{
+      padding: 30px 20px;
+      background-color: #ffffff;
+    
+    
+    
+     
+    
+    
+    }
+    .feild{
+      margin-bottom: 10px;
+      padding-bottom: 12px;
+      
+      
+    }
+    .form .button{
+  
+      width: 30%;
+      color: rgb(5, 151, 255);
+      display: block;
+      padding: 4px;
+      border: 0;
+    
+      border-radius: 4px;
+      box-shadow: 0 5px 0 #006599;
+      background:rgb(3, 28, 255);
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  
+    }
+    .button:hover{
+        background:  #ff7403;
+    }
+  .div1{
+  display: inline;
+  }
+  .Aboutme{
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+    color: #eeff00;;
+  }
+  .Homepage{
+    font-family: "Righteous", sans-serif;
+    color: #160045;;
+  }
+  .Homepageh1{
+    font-family: "Roboto", sans-serif;
+    color: #eeff00;
+    font-size: 28;
+    padding-bottom: 30px;
+  }
+  .Aboutmeh1{
+    font-family: "Roboto", sans-serif;
+    color: #d0ff00;
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+  .helloh1{
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+   
+  }
+  .Srikanthh1{
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+    color: #160045;;
+    background: powderblue;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function:linear;
+  }
+  .Srikanthh1:hover{
+    background: #0087cc;
+   
+  }
+  .paragraph1{
+    transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function:linear;
+  }
+  .paragraph1:hover{
+    background: #9ccc00;
+  }
+  .WHATIAMDOING{
+    font-family: "Righteous", sans-serif;
+    background-color: tomato;
+    width: 250px;
+    border-radius: 4px;
+    color: #160045;
+  }
+  .container1001{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .card1{
+   
+    width: 300px;
+   margin-left: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.3);
+  background:powderblue;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  }
+  .card1:hover{
+    background: RGB(227, 76, 38)
+  }
+  .card2{
+    background-color: white;
+    width: 300px;
+   margin-left: 30px;
+  border-radius: 10px;
+  padding-top: 40px;
+  box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.3);
+  background: powderblue;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  }
+  .card2:hover{
+    background: RGB(38, 77, 228);
+  }
+  .card3{
+    background-color: white;
+    width: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
+  padding-top: 30px;
+  box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.3);
+  background: powderblue;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  }
+  .card3:hover{
+    background: RGB(240, 219, 79);
+  }
+  h1 a{
+    background-color: #ff7300;
+    width: 900px;
+    text-align: center;
+    text-decoration: navy;
+  }
+  a{
+    text-decoration: none;
+    margin: 5px;
+    color: #dfdfdf;
+  }
+  a:hover {
+    color: #0077b5; /* LinkedIn color */
+  }
+  .phone{
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+  }
+  .phone:hover {
+    color: #0077b5; /* Change color on hover */
+  }
+  .srikanthimage{
+    transition: transform 0.5s ease;
+  }
+  .srikanthimage:hover{
+    transform: scale(1.1);
+  }
+  .download-btn{
+    .download-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+  }
+  .download-btn:hover {
+      background-color: #000000;
+  }
+  
+  }
